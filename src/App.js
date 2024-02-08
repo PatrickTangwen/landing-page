@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <GlobalStyles />
-      <Router basename="/landing-page">
+      <Router>
         <Routes>
           {/* <Route path="/thank-you" element={<ThankYouPage />} /> */}
           <Route path="/" element={<MainLandingPage />} />
