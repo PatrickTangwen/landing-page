@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <GlobalStyles />
-      <Router basename="/">
+      <Router>
         <Routes>
           {/* <Route path="/thank-you" element={<ThankYouPage />} /> */}
           <Route path="/" element={<MainLandingPage />} />
