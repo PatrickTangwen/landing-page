@@ -35,7 +35,7 @@ const Heading = styled.h1`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">
+      <NavLink href="#/">
       Back To Main Website
       </NavLink>
     </NavLinks>,
